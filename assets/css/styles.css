@@ -14,17 +14,19 @@ body {
 
 .align {
   display: flex;
+  width: 1300px;
 }
 
 header img {
   cursor: pointer;
   width: 100px;
-  margin-top: 30px;
+  margin-top: 38px;
   margin-left: 40px;
-  margin-bottom: 15px;
+  margin-bottom: 29px;
 }
 
 .marginnav {
+  cursor: pointer;
   margin-left: 67%;
   margin-right: 5%;
   font-weight: 400;
@@ -133,7 +135,7 @@ button {
   list-style: none;
 }
 
-.div {
+.divi {
   display: flex;
   align-items: center;
   border-radius: 30px;
@@ -141,13 +143,13 @@ button {
   border: solid 2px #f2f2f2;
 }
 
-.div:hover {
+.divi:hover {
   cursor: pointer;
   background-color: #deebff;
   transform: scale(1.05) translateY(2px);
 }
 
-#logofilters {
+.logofilters {
   background: #deebff;
   padding: 10px;
   border-radius: 30px;
@@ -202,21 +204,23 @@ section li {
   color: #0065fc;
 }
 
-/* LODGING+MOSTPOPULAR */
+/* LODGING */
 
 .mainblock {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
   margin-top: 20px;
+  width: 1300px;
 }
 
 .mostpopular {
-  background: aqua;
-  width: 27%;
-  height: 200px;
+  background: #f2f2f2;
+  height: 605px;
   border-radius: 30px;
   padding: 20px;
+  width: 33%;
+  margin-left: 25px;
 }
 
 .headersection {
@@ -224,6 +228,10 @@ section li {
   align-items: center;
   padding: 20px;
   margin-top: 5px;
+}
+
+.lodging h2 {
+  margin-top: 20px;
 }
 
 .headertitle {
@@ -238,29 +246,32 @@ section li {
 
 .lodging {
   background: #f2f2f2;
-  width: 65%;
-  /* width: 885px; */
-  height: 600px;
+  width: 78%;
+  height: 645px;
   border-radius: 30px;
   padding: 0px 20px 0px 20px;
 }
 
-.all {
+.alllodgingarticle {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-left: -9px;
+  width: 100%;
 }
 
 .titlecart {
   font-size: 18px;
+  margin-bottom: 5px;
 }
 
 .article {
-  width: 29%;
-  padding: 10px;
-  border-radius: 30px;
+  width: 30%;
+  padding: 4px;
+  border-radius: 20px;
   margin-bottom: 30px;
   background: white;
+  margin-left: 19px;
   box-shadow: 1px 6px 10px 5px rgba(164, 164, 164, 0.7);
 }
 
@@ -271,11 +282,12 @@ section li {
 .img {
   width: 100%;
   height: 118px;
-  border-radius: 30px 30px 0 0;
+  border-radius: 20px 20px 0 0;
   object-fit: cover;
 }
 .notation {
   color: #0065fc;
+  margin-top: 5px;
 }
 
 .bottomcart {
@@ -285,7 +297,48 @@ section li {
 }
 
 .textbelowsection {
-  margin-top: 20px;
-  margin-left: 10px;
+  cursor: pointer;
+  margin-left: 25px;
   color: black;
+  margin-top: 35px;
+}
+
+/* MOST POPULAR */
+
+.allmostpopulararticle {
+}
+
+.mostpopular img {
+  width: 40%;
+  border-radius: 20px 0px 0px 20px;
+  height: 140px;
+}
+
+.mostpopulararticle {
+  display: flex;
+  width: 95%;
+  background: white;
+  padding: 5px;
+  border-radius: 20px;
+  margin-bottom: 35px;
+  margin-top: 15px;
+  height: 140px;
+}
+
+.mostpopularclickable {
+  display: flex;
+  text-decoration: none;
+  color: black;
+}
+
+.leftcart {
+  margin-left: 20px;
+  align-self: center;
+}
+
+.mostpopular h3 {
+  margin-bottom: 5px;
+}
+.mostpopular p {
+  margin-bottom: 50px;
 }
