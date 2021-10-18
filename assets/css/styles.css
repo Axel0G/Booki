@@ -26,11 +26,13 @@ header img {
 }
 
 .marginnav {
+  color: black;
   cursor: pointer;
   margin-left: 67%;
   margin-right: 5%;
-  font-weight: 400;
+  font-weight: 500;
   padding-top: 32px;
+  text-decoration: none;
 }
 
 .marginnav:hover {
@@ -44,7 +46,9 @@ header img {
 .activities {
   cursor: pointer;
   padding-top: 32px;
-  font-weight: 400;
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
 }
 
 .activities:hover {
@@ -133,6 +137,7 @@ button {
 .filterlist {
   display: flex;
   list-style: none;
+  align-items: center;
 }
 
 .divi {
@@ -159,7 +164,7 @@ button {
   color: #0065fc;
 }
 
-section li {
+.textfilters {
   margin-left: 10px;
   font-weight: 600;
   margin-right: 15px;
@@ -216,7 +221,7 @@ section li {
 
 .mostpopular {
   background: #f2f2f2;
-  height: 605px;
+  height: 620px;
   border-radius: 30px;
   padding: 20px;
   width: 33%;
@@ -247,7 +252,7 @@ section li {
 .lodging {
   background: #f2f2f2;
   width: 78%;
-  height: 645px;
+  height: 660px;
   border-radius: 30px;
   padding: 0px 20px 0px 20px;
 }
@@ -285,6 +290,7 @@ section li {
   border-radius: 20px 20px 0 0;
   object-fit: cover;
 }
+
 .notation {
   color: #0065fc;
   margin-top: 5px;
@@ -304,9 +310,6 @@ section li {
 }
 
 /* MOST POPULAR */
-
-.allmostpopulararticle {
-}
 
 .mostpopular img {
   width: 40%;
@@ -336,9 +339,26 @@ section li {
   align-self: center;
 }
 
+.mostpopularnotation {
+  color: #0065fc;
+}
+
 .mostpopular h3 {
   margin-bottom: 5px;
 }
 .mostpopular p {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
+}
+
+.mostpopulararticle i {
+  font-size: 13px;
+}
+
+/* ACTIVITIES */
+
+.activitiessection {
+  height: 500px;
+  background: grey;
+  margin-top: 50px;
+  width: 1300px;
 }
