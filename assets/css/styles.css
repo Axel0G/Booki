@@ -8,6 +8,8 @@
 
 body {
   font-family: "Raleway", sans-serif;
+}
+main {
   margin: 0 25px 0 25px;
 }
 
@@ -15,6 +17,7 @@ body {
 
 .align {
   display: flex;
+  justify-content: space-between;
 }
 
 header img {
@@ -27,11 +30,11 @@ header img {
 
 .marginnav {
   font-weight: 500;
-  margin-left: 67%;
   padding-top: 32px;
   text-decoration: none;
   color: black;
   cursor: pointer;
+  margin-right: 40px;
 }
 
 .marginnav:hover {
@@ -42,13 +45,17 @@ header img {
   color: #0065fc;
 }
 
+.herbeact {
+  display: flex;
+}
+
 .activities {
   font-weight: 500;
-  margin-left: 5%;
   padding-top: 32px;
   text-decoration: none;
   color: black;
   cursor: pointer;
+  margin-left: 40px;
 }
 
 .activities:hover {
@@ -465,9 +472,6 @@ button {
   box-shadow: 0px 5px 5px 4px rgba(242, 242, 242, 0.75);
 }
 
-.activitiesarticleshorter {
-}
-
 .activitiessection h3 {
   color: black;
 }
@@ -481,4 +485,31 @@ button {
 .bottomcartactivitiesshorter {
   margin: 15px 0px 0px 20px;
   border-radius: 0px 0px 20px 20px;
+}
+
+/* FOOTER */
+
+footer {
+  margin: 0;
+  padding: 0;
+}
+
+.block {
+  display: flex;
+  margin-top: 50px;
+  padding: 30px;
+  background-color: #f2f2f2;
+}
+.card {
+  flex-grow: 1;
+}
+.card h3 {
+  margin-top: 10px;
+}
+.card ul {
+  margin-top: 20px;
+}
+.card li {
+  list-style-type: none;
+  margin-bottom: 10px;
 }
