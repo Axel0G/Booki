@@ -297,9 +297,10 @@ button {
   color: black;
 }
 
-#greystar {
-  color: grey;
+.grey-color {
+  color: #f2f2f2;
 }
+
 /* MOST POPULAR */
 
 .mostpopular {
@@ -364,13 +365,11 @@ button {
 /* ACTIVITIES */
 
 .activitiessection {
-  height: 500px;
   margin-top: 50px;
-  background: grey;
 }
 
-.headertitle h2 {
-  margin-left: 20px;
+.activitiestitle {
+  margin-left: -18px;
 }
 
 .allactivitiessection {
@@ -378,87 +377,108 @@ button {
 }
 
 .activitiesclickable {
+  text-decoration: none;
 }
 
 .imgactivitieslonger {
-  width: 300px;
-  object-fit: cover;
+  width: 312px;
   height: 414px;
   border-radius: 20px 20px 0px 0px;
+  object-fit: cover;
 }
 
 .activitiesshorter {
   flex: 50%;
-  padding: 30px;
-  background: rebeccapurple;
-  height: 495px;
+  margin-right: 5px;
 }
 
 .activitiescartshorter1 {
-  height: 220px;
-  background: yellow;
+  height: 261px;
+  margin-right: 25px;
+  margin-bottom: 40px;
   border-radius: 20px 20px 20px 20px;
-  padding-bottom: 20px;
-  margin-bottom: 20px;
+  background: white;
+  box-shadow: 0px 5px 5px 4px rgba(242, 242, 242, 0.75);
 }
+
 .imgactivitiesshorter1 {
-  width: 230px;
+  width: 295px;
+  height: 209px;
   border-radius: 20px 20px 0px 0px;
+  object-fit: cover;
 }
+
 .activitiescartshorter2 {
-  height: 220px;
-  background: yellow;
-  border-radius: 20px 20px 20px 20px;
+  height: 164px;
+  margin-right: 25px;
   padding-bottom: 20px;
+  border-radius: 20px 20px 20px 20px;
+  background: white;
+  box-shadow: 0px 5px 5px 4px rgba(242, 242, 242, 0.75);
 }
 
 .imgactivitiesshorter2 {
-  width: 230px;
+  width: 295px;
+  height: 112px;
   border-radius: 20px 20px 0px 0px;
+  object-fit: cover;
 }
 
 .activitiescartshorter3 {
-  height: 220px;
-  background: yellow;
+  height: 206px;
   border-radius: 20px 20px 20px 20px;
   padding-bottom: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+  background: white;
+  box-shadow: 0px 5px 5px 4px rgba(242, 242, 242, 0.75);
 }
 
 .imgactivitiesshorter3 {
-  width: 230px;
+  width: 295px;
+  height: 154px;
   border-radius: 20px 20px 0px 0px;
+  object-fit: cover;
 }
 
 .activitiescartshorter4 {
   height: 220px;
-  background: yellow;
-  border-radius: 20px 20px 20px 20px;
+  border-radius: 20px;
   padding-bottom: 20px;
+  background: white;
+  box-shadow: 0px 5px 5px 4px rgba(242, 242, 242, 0.75);
 }
 
 .imgactivitiesshorter4 {
-  width: 230px;
+  width: 295px;
+  height: 168px;
   border-radius: 20px 20px 0px 0px;
+  object-fit: cover;
 }
 
 .activitiesarticlelonger {
   flex: 50%;
-  padding: 30px;
-  height: 495px;
-  background: orange;
+  height: 465px;
+  margin: 0px 30px 0px 0px;
+  border: 3px;
+  border-radius: 20px;
+  background: white;
+  box-shadow: 0px 5px 5px 4px rgba(242, 242, 242, 0.75);
 }
 
 .activitiesarticleshorter {
 }
 
+.activitiessection h3 {
+  color: black;
+}
+
 .bottomcartactivitieslonger {
-  background: red;
-  border-radius: 0px 0px 20px 20px;
-  padding-bottom: 25px;
+  flex: 50%;
+  margin: 17px 0px 0px 25px;
+  border-radius: 20px 20px 20px 20px;
 }
 
 .bottomcartactivitiesshorter {
+  margin: 15px 0px 0px 20px;
   border-radius: 0px 0px 20px 20px;
-  padding-bottom: 20px;
 }
