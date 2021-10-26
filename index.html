@@ -15,10 +15,12 @@
 <!-- HEADER -->
         <header>
             <nav class="align">
-                <img alt="logo" src="./assets/images/logo/Booki.png">
+                <div class="logoimage">
+                    <img alt="logo" src="./assets/images/logo/Booki.png">
+                </div>
                 <div class="herbeact">
-                <a class="marginnav" href="#lodginganchor">Hébergements</a>
-                <a class="activities" href="#activitiesanchor">Activités</a>
+                    <a class="marginnav" href="#lodginganchor">Hébergements</a>
+                    <a class="activities" href="#activitiesanchor">Activités</a>
                 </div>
             </nav>
         </header>
@@ -32,7 +34,10 @@
             <div>
                 <form>
                     <input type="text" name="text" class=search placeholder="Marseille, France">
-                    <button>Rechercher</button>
+                    <button class="button">
+                        <span class="searchbutton">Rechercher</span>
+                        <i class="search-icon fas fa-search" aria-hidden="true"></i>
+                    </button>
                 </form>
             </div>
         </div>
@@ -91,8 +96,10 @@
                 <div class="allmostpopulararticle">
                     <div class="mostpopulararticle">
                         <a href="#" class="mostpopularclickable">
+                            <div class="fleximg">
                             <img class="img" alt="image hébegement"
                                 src="./assets/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg">
+                            </div>
                             <div class="leftcart">
                                 <h3 class="titlecart">Hôtel Le soleil du matin</h3>
                                 <p>Nuit à partir de <strong>128€</strong></p>
@@ -109,8 +116,10 @@
 
                     <div class="mostpopulararticle">
                         <a href="#" class="mostpopularclickable">
+                            <div class="fleximg">
                             <img class="img" alt="image hébegement"
                                 src="./assets/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg">
+                            </div>
                             <div class="leftcart">
                                 <h3 class="titlecart">Au coeur de l'eau Chambre d'hôtes</h3>
                                 <p>Nuit à partir de <strong>71€</strong></p>
@@ -127,8 +136,10 @@
 
                     <div class="mostpopulararticle">
                         <a href="#" class="mostpopularclickable">
+                            <div class="fleximg">
                             <img class="img" alt="image hébegement"
                                 src="./assets/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg">
+                            </div>
                             <div class="leftcart">
                                 <h3 class="titlecart">Hôtel Tout bleu et Blanc</h3>
                                 <p>Nuit à partir de <strong>68€</strong></p>
