@@ -42,7 +42,7 @@ header img {
 }
 
 .marginnav:hover {
-  font-weight: 600;
+  font-weight: 500;
   border-top: solid 2px;
   padding: 49px 20px 30px 20px;
   color: #0065fc;
@@ -65,7 +65,7 @@ header img {
 }
 
 .activities:hover {
-  font-weight: 600;
+  font-weight: 500;
   border-top: solid 2px;
   padding: 49px 20px 30px 20px;
   color: #0065fc;
@@ -326,9 +326,6 @@ form {
   background: #f2f2f2;
 }
 
-.fleximg {
-}
-
 .mostpopicon {
   display: flex;
   font-size: 25px;
@@ -336,14 +333,13 @@ form {
 }
 
 .mostpopular img {
-  width: 130px;
+  width: 100%;
   height: 130px;
   border-radius: 20px 0px 0px 20px;
 }
 
 .mostpopulararticle {
   display: flex;
-  flex: 95%;
   height: 140px;
   margin-top: 15px;
   padding: 5px;
@@ -358,8 +354,12 @@ form {
   color: black;
 }
 
+.fleximg {
+  flex: 40%;
+}
+
 .leftcart {
-  width: 155px;
+  flex: 60%;
   align-self: center;
   margin-left: 20px;
 }
@@ -526,7 +526,7 @@ footer {
 
 /*MEDIAQUERIES*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   body {
     width: auto;
   }
@@ -589,7 +589,13 @@ footer {
   .mostpopular {
     margin: 0;
     border-radius: 0;
+    flex: 100%;
   }
+
+  .mostpopulararticle {
+    display: block;
+  }
+
   .headertitle {
     font-size: 13px;
     margin: 0;
@@ -704,10 +710,18 @@ footer {
 
   .marginnav:hover,
   .activities:hover {
-    padding: 30px 20px 20px 30px;
+    padding: 32px 20px 20px 30px;
     border-top: none;
     text-align: center;
     border-bottom: solid 2px;
     color: #0065fc;
+  }
+
+  .fleximg {
+    flex: 50%;
+  }
+
+  .leftcart {
+    flex: 50%;
   }
 }
