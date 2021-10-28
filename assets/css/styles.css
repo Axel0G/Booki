@@ -561,6 +561,9 @@ footer {
   .mostpopulararticle {
     height: unset;
   }
+  .herbeact {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 1279px) {
