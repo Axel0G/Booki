@@ -352,6 +352,7 @@ form {
   display: flex;
   text-decoration: none;
   color: black;
+  flex: 100%;
 }
 
 .fleximg {
@@ -526,6 +527,81 @@ footer {
 
 /*MEDIAQUERIES*/
 
+@media screen and (max-width: 2750px) {
+  .logoimage {
+    flex: 85%;
+  }
+  .herbeact {
+    flex: 15%;
+  }
+  .mostpopular img {
+    height: 160px;
+  }
+  .fleximg {
+    flex: 40%;
+  }
+  .leftcart {
+    flex: 60%;
+  }
+  .mostpopulararticle {
+    height: 175px;
+  }
+  .img {
+    height: 170px;
+  }
+}
+
+@media screen and (max-width: 2750px) {
+  .mostpopular img {
+    height: 151px;
+  }
+  .img {
+    height: 150px;
+  }
+  .mostpopulararticle {
+    height: unset;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .titlecart {
+    font-size: 16px;
+  }
+  .textbelowsection {
+    margin-top: 70px;
+  }
+}
+
+@media screen and (max-width: 1168px) {
+  .titlecart {
+    font-size: 14px;
+  }
+  .textbelowsection {
+    margin-top: 80px;
+  }
+}
+
+@media screen and (max-width: 1058px) {
+  .titlecart {
+    font-size: 13px;
+  }
+  .mainblock p {
+    font-size: 12px;
+  }
+  .textbelowsection {
+    margin-top: 85px;
+  }
+}
+
+@media screen and (max-width: 1003px) {
+  .titlecart {
+    font-size: 12px;
+  }
+  .mainblock p {
+    font-size: 11px;
+  }
+}
+
 @media screen and (max-width: 992px) {
   body {
     width: auto;
@@ -619,6 +695,10 @@ footer {
     padding: 30px;
   }
 
+  .activitiessection h3 {
+    font-size: 16px;
+  }
+
   .divi {
     margin: 10px 20px;
   }
@@ -693,6 +773,12 @@ footer {
     background: white;
   }
 
+  .lodging h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+  }
+
   .article {
     flex: 100%;
   }
@@ -723,5 +809,74 @@ footer {
 
   .leftcart {
     flex: 50%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  header img {
+    margin-bottom: 10px;
+  }
+
+  .filterlist {
+    margin: 10px;
+  }
+
+  .headersection {
+    padding: unset;
+  }
+
+  .allactivitiessection img {
+    height: 149px;
+  }
+
+  .activitiesarticlelonger {
+    height: 205px;
+    margin: 0 0 40px 0;
+  }
+  .activitiesshorter {
+    height: 490px;
+    margin-bottom: unset;
+  }
+  .imgactivitiesshorter1 {
+    height: 200px;
+  }
+
+  .activitiescartshorter1 {
+    height: 205px;
+    margin-right: unset;
+  }
+
+  .imgactivitiesshorter2 {
+    height: 200px;
+  }
+
+  .activitiescartshorter2 {
+    height: 205px;
+    margin-right: unset;
+  }
+
+  .activitiescartshorter3 {
+    height: 205px;
+  }
+
+  .imgactivitiesshorter3 {
+    height: 200px;
+  }
+
+  .activitiescartshorter4 {
+    height: 205px;
+  }
+
+  .imgactivitiesshorter4 {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 310px) {
+  .search {
+    width: 150px;
+  }
+  .activitiessection h3 {
+    font-size: 13px;
   }
 }
