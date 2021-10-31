@@ -536,6 +536,11 @@ footer {
   .mostpopular img {
     height: 325px;
   }
+
+  .mostpopular p {
+    margin-bottom: 150px;
+  }
+
   .fleximg {
     flex: 40%;
   }
@@ -551,16 +556,25 @@ footer {
   .headersection {
     justify-content: space-between;
   }
+  .textbelowsection {
+    margin-bottom: 20px;
+  }
 }
 
 @media screen and (max-width: 2750px) {
   .img {
     height: 149px;
   }
-.mostpopular img {
-  height: 151px;
+  .mostpopular img {
+    height: 151px;
+  }
+  .textbelowsection {
+    margin-bottom: unset;
+  }
+  .mostpopular p {
+    margin-bottom: 35px;
+  }
 }
-
 @media screen and (max-width: 1279px) {
   .titlecart {
     font-size: 16px;
@@ -630,7 +644,7 @@ footer {
     font-size: 11px;
   }
 
-  .button{
+  .button {
     border-radius: 15px 15px 15px 15px;
     padding-inline: 18px;
     margin-left: -15px;
@@ -715,7 +729,7 @@ footer {
   }
 
   .activitiesarticlelonger {
-      flex: 100%;
+    flex: 100%;
     height: 250px;
     margin: 0 0 40px 0;
   }
@@ -726,8 +740,8 @@ footer {
   .activitiesshorter {
     height: 540px;
     margin-bottom: 40px;
-      flex: 100%;
-      margin-right: unset;
+    flex: 100%;
+    margin-right: unset;
   }
   .imgactivitiesshorter1 {
     height: 200px;
@@ -783,13 +797,13 @@ footer {
     margin-bottom: 20px;
     margin-left: 10px;
   }
-.titlecart {
+  .titlecart {
     font-size: 14px;
   }
 
   .mainblock p {
     font-size: 13px;
-}
+  }
 
   .article {
     flex: 40%;
@@ -837,96 +851,96 @@ footer {
 
   .title {
     font-size: 23px;
-}
+  }
 
-.text {
-  font-size: 17px;
-}
+  .text {
+    font-size: 17px;
+  }
 
-#logo {
-  padding: 17px;
-  border-radius: 15px 0 0 15px;
-}
+  #logo {
+    padding: 17px;
+    border-radius: 15px 0 0 15px;
+  }
 
-.search {
-  width: 260px;
-  height: 50px;
-  font-size: 18px;
-}
+  .search {
+    width: 260px;
+    height: 50px;
+    font-size: 18px;
+  }
 
-.searchbar {
-  margin-top: 25px;
-}
+  .searchbar {
+    margin-top: 25px;
+  }
 
-.button {
+  .button {
     border-radius: 15px 15px 15px 15px;
     padding-inline: 18px;
     margin-left: -15px;
-}
+  }
 
-.textfilters {
-  font-size: 14px;
-  font-weight: 800;
-}
+  .textfilters {
+    font-size: 14px;
+    font-weight: 800;
+  }
 
   .filterlist {
     margin: 5px;
   }
 
   .logoinfo {
-      margin-bottom: 15px;
-      height: 25px;
-      width: 30px;
+    margin-bottom: 15px;
+    height: 25px;
+    width: 30px;
   }
 
   .infocontent {
-  margin: 10px;
-  margin-bottom: 25px;
-  font-size: 16px;
-  font-weight: 400;
+    margin: 10px;
+    margin-bottom: 25px;
+    font-size: 16px;
+    font-weight: 400;
   }
-  
-.mostpopicon {
-  font-size: 20px;
-}
 
-.mostpopular h3 {
-  font-size: 15px;
-}
+  .mostpopicon {
+    font-size: 20px;
+  }
 
-.fleximg {
-  flex: 45%;
-}
+  .mostpopular h3 {
+    font-size: 15px;
+  }
 
-.leftcart {
-  flex:55%;
-}
+  .fleximg {
+    flex: 45%;
+  }
+
+  .leftcart {
+    flex: 55%;
+  }
 
   .lodging {
     margin-top: 10px;
   }
 
-.mostpopulararticle {
-  margin-bottom: unset;
-}
+  .mostpopulararticle {
+    margin-bottom: unset;
+  }
 
-.article {
-  margin-left: unset;
-}
+  .article {
+    margin-left: unset;
+  }
 
-.alllodgingarticle {
-  margin-left: unset;
-}
+  .alllodgingarticle {
+    margin-left: unset;
+  }
 
-.lodging {
-  padding: 0px 30px 0px 30px;
-}
+  .lodging {
+    padding: 0px 30px 0px 30px;
+  }
 
-.lodging h2 {
-  margin-top: 15px;
-  margin-bottom: 15px;
-  margin-left: -5px;
-}
+  .lodging h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: -5px;
+  }
 
   .img {
     height: 140px;
@@ -935,9 +949,9 @@ footer {
   .allactivitiessection img {
     height: 149px;
   }
-.activitiessection h2 {
-  margin-bottom: 15px;
-}
+  .activitiessection h2 {
+    margin-bottom: 15px;
+  }
 
   .activitiesarticlelonger {
     height: 205px;
@@ -987,7 +1001,7 @@ footer {
 @media screen and (max-width: 362px) {
   .divi {
     margin: 10px 21px;
-}
+  }
   .search {
     width: 245px;
   }
