@@ -263,7 +263,6 @@ form {
 .alllodgingarticle {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   margin-left: -9px;
 }
 
@@ -273,16 +272,16 @@ form {
 }
 
 .article {
-  flex: 30%;
   padding: 4px;
   border-radius: 20px;
-  margin-bottom: 30px;
-  margin-left: 19px;
   box-shadow: 1px 6px 10px 5px rgba(164, 164, 164, 0.7);
   background: white;
 }
 
 .lodgingclickable {
+  flex: 30%;
+  margin-bottom: 30px;
+  margin-left: 19px;
   text-decoration: none;
 }
 
@@ -340,15 +339,15 @@ form {
 .mostpopulararticle {
   display: flex;
   height: 140px;
-  margin-top: 15px;
   padding: 5px;
   border-radius: 20px;
-  margin-bottom: 35px;
   background: white;
+  margin-bottom: 20px;
 }
 
 .mostpopularclickable {
-  display: flex;
+  margin-top: 15px;
+  margin-bottom: 35px;
   text-decoration: none;
   color: black;
   flex: 100%;
@@ -394,6 +393,14 @@ form {
 }
 
 .activitiesclickable {
+  margin: 0px 30px 0px 0px;
+  text-decoration: none;
+}
+
+.activitiesclickable1,
+.activitiesclickable2,
+.activitiesclickable3,
+.activitiesclickable4 {
   text-decoration: none;
 }
 
@@ -406,12 +413,15 @@ form {
 
 .activitiesshorter {
   flex: 50%;
-  margin-right: 5px;
+}
+
+.activitiesshorter1 {
+  flex: 50%;
+  margin-right: 30px;
 }
 
 .activitiescartshorter1 {
   height: 261px;
-  margin-right: 25px;
   margin-bottom: 40px;
   border-radius: 20px 20px 20px 20px;
   background: white;
@@ -427,7 +437,6 @@ form {
 
 .activitiescartshorter2 {
   height: 164px;
-  margin-right: 25px;
   padding-bottom: 20px;
   border-radius: 20px 20px 20px 20px;
   background: white;
@@ -443,9 +452,9 @@ form {
 
 .activitiescartshorter3 {
   height: 206px;
+  margin-bottom: 40px;
   border-radius: 20px 20px 20px 20px;
   padding-bottom: 20px;
-  margin-bottom: 40px;
   background: white;
   box-shadow: 0px 5px 5px 4px rgba(242, 242, 242, 0.75);
 }
@@ -475,7 +484,6 @@ form {
 .activitiesarticlelonger {
   flex: 50%;
   height: 465px;
-  margin: 0px 30px 0px 0px;
   border: 3px;
   border-radius: 20px;
   background: white;
@@ -493,7 +501,7 @@ form {
 }
 
 .bottomcartactivitiesshorter {
-  margin: 15px 0px 0px 20px;
+  margin: 15px 0px 0px 15px;
   border-radius: 0px 0px 20px 20px;
 }
 
@@ -567,9 +575,6 @@ footer {
   }
   .mostpopular img {
     height: 151px;
-  }
-  .textbelowsection {
-    margin-bottom: unset;
   }
   .mostpopular p {
     margin-bottom: 35px;
@@ -685,7 +690,7 @@ footer {
   }
 
   .mostpopulararticle {
-    display: block;
+    flex: 100%;
   }
 
   .headertitle {
@@ -708,7 +713,7 @@ footer {
   }
   .activitiessection {
     margin-top: 20px;
-    padding: 30px;
+    padding: 20px;
   }
 
   .activitiessection h3 {
@@ -728,7 +733,7 @@ footer {
     height: 200px;
   }
 
-  .activitiesarticlelonger {
+  .activitiesclickable {
     flex: 100%;
     height: 250px;
     margin: 0 0 40px 0;
@@ -737,12 +742,18 @@ footer {
   .imgactivitieslonger {
     height: unset;
   }
-  .activitiesshorter {
+  .activitiesshorter,
+  .activitiesshorter1 {
     height: 540px;
     margin-bottom: 40px;
     flex: 100%;
     margin-right: unset;
   }
+
+  .activitiesarticlelonger {
+    height: 250px;
+  }
+
   .imgactivitiesshorter1 {
     height: 200px;
   }
@@ -805,7 +816,7 @@ footer {
     font-size: 13px;
   }
 
-  .article {
+  .lodgingclickable {
     flex: 40%;
   }
 
@@ -817,7 +828,7 @@ footer {
   .activities {
     padding: 30px 20px 20px 30px;
     text-align: center;
-    border-bottom: solid 2px transparent;
+    border-bottom: solid 2px #f2f2f2;
   }
 
   .marginnav:hover,
@@ -839,7 +850,7 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  .article {
+  .lodgingclickable {
     flex: 100%;
   }
 }
@@ -920,10 +931,6 @@ footer {
     margin-top: 10px;
   }
 
-  .mostpopulararticle {
-    margin-bottom: unset;
-  }
-
   .article {
     margin-left: unset;
   }
@@ -933,7 +940,11 @@ footer {
   }
 
   .lodging {
-    padding: 0px 30px 0px 30px;
+    padding: 0px 20px 0px 20px;
+  }
+
+  .lodgingclickable {
+    margin-left: unset;
   }
 
   .lodging h2 {
@@ -943,7 +954,7 @@ footer {
   }
 
   .img {
-    height: 140px;
+    height: 108px;
   }
 
   .allactivitiessection img {
@@ -995,6 +1006,17 @@ footer {
 
   .imgactivitiesshorter4 {
     height: 200px;
+  }
+
+  .activitiesarticlelonger {
+    margin: unset;
+  }
+
+  .activitiesclickable {
+    height: unset;
+  }
+  .activitiesshorter1 {
+    height: unset;
   }
 }
 
